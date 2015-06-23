@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/prizeLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/prizeYear"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="1922"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-thin"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp">
+
+                <ImageView
+                    android:id="@+id/winner1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+
+                <ImageView
+                    android:id="@+id/winner2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+
+                <ImageView
+                    android:id="@+id/winner3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+
+                <ImageView
+                    android:id="@+id/winner4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/prizeCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="medicine"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textColor="@color/primary_text"
+                android:fontFamily="sans-serif-light"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/prizeMotivation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/primary_text"
+        android:textStyle="italic"
+        android:text="for their contributions to the theory of the unified weak and electromagnetic"/>
+
+
+</LinearLayout>

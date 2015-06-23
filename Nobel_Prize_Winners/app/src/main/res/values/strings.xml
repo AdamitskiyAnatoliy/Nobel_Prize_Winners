@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nobel_Prize_Winners</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="COUNTRY_SAVE_COMPLETE">com.adamitskiy.anatoliy.nobel_prize_winners</string>
+    <string name="LAUREATE_SAVE_COMPLETE">com.adamitskiy.anatoliy.nobel_prize_winners</string>
+</resources>
